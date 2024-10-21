@@ -1,0 +1,50 @@
+/*nav related*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn-primary{
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+/*Share font style*/
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
+.text_primary{
+    color: #FD6E0A;
+}
