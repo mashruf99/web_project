@@ -39,6 +39,19 @@ nav a{
     padding-top: 18px;
     padding-bottom: 18px;
 }
+.btn-secondary{
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-color: #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 15px;
+    shape-margin: 0svi;
+}
 /*Share font style*/
 
 
@@ -53,12 +66,52 @@ body{
 /*header style*/
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     padding-top: 30px;
     padding-left: 150px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-description{
+    margin-bottom: 25px;
+    color: #474747;
+    width: 585px;
+}
+
+.start{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.start_head{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+/*main*/
+.about{
+    padding: 131px;
+    background-color: #FFF8F3;
+    border-radius: 15px;
+}
+
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
 }
