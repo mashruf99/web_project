@@ -116,8 +116,9 @@ body {
 /*main*/
 main {
     width: 1600px;
-    height: 550px;
+    height: 2500px;
     margin: 0 200px 200px;
+   
 
 }
 
@@ -282,3 +283,47 @@ padding-left: 191px;
     color: black;
 
 }
+
+
+footer {
+    background-color: #FFF8F3; /* Light background color for visibility */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center the content */
+    height: 600px;
+    padding-top: 130px;
+    padding-bottom: 200px;
+   
+    display: flex;
+    gap: 124px;
+    text-align: left;
+    padding-left: 80px;
+
+}
+
+.footer-column {
+    width: 50%;
+    
+    
+}
+
+.image {
+    margin-top: 10px; /* Add space above social icons */
+}
+
+.image img {
+    width: 30px; /* Set a width for the social media icons */
+    margin: 0 5px; /* Space between the icons */
+}
+
+
+.contact input[type="text"],input[type="mail"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    font-size: 18;
+    color: #474747;
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
+}
+
